@@ -1,0 +1,8 @@
+﻿  pch.cpp
+  dllmain.cpp
+  LinearTraining.cpp
+D:\COURS\Machine Learning\Projets\MachineLearning_Semester1\MachineLearning_Semester1\LinearTraining.cpp(17,8): error C3861: 'time' : identificateur introuvable
+D:\COURS\Machine Learning\Projets\MachineLearning_Semester1\MachineLearning_Semester1\LinearTraining.cpp(17,2): error C3861: 'srand' : identificateur introuvable
+D:\COURS\Machine Learning\Projets\MachineLearning_Semester1\MachineLearning_Semester1\LinearTraining.cpp(23,11): error C3861: 'rand' : identificateur introuvable
+D:\COURS\Machine Learning\Projets\MachineLearning_Semester1\MachineLearning_Semester1\LinearTraining.cpp(44,37): warning C4244: '+=' : conversion de 'double' en 'float', perte possible de données
+  Génération de code en cours...

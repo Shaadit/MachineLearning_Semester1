@@ -1,0 +1,8 @@
+﻿  pch.cpp
+  dllmain.cpp
+  LinearTraining.cpp
+D:\COURS\Machine Learning\Projets\MachineLearning_Semester1\MachineLearning_Semester1\LinearTraining.cpp(13,12): warning C4244: 'argument' : conversion de 'time_t' en 'unsigned int', perte possible de données
+  Génération de code en cours...
+D:\COURS\Machine Learning\Projets\MachineLearning_Semester1\MachineLearning_Semester1\LinearTraining.cpp(45): warning C4715: 'linearTraining' : les chemins de contrôle ne retournent pas tous une valeur
+     Création de la bibliothèque D:\COURS\Machine Learning\Projets\MachineLearning_Semester1\x64\Debug\MachineLearning_Semester1.lib et de l'objet D:\COURS\Machine Learning\Projets\MachineLearning_Semester1\x64\Debug\MachineLearning_Semester1.exp
+  MachineLearning_Semester1.vcxproj -> D:\COURS\Machine Learning\Projets\MachineLearning_Semester1\x64\Debug\MachineLearning_Semester1.dll

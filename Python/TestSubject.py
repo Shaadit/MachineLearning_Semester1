@@ -14,7 +14,7 @@ points = np.array([
 ])
 classes = np.array([
     1,
-    1,
+    0,
     -1
 ])
 
@@ -37,7 +37,11 @@ print(points_ptr.__sizeof__())
 linearDll.linearTraining.argtypes = [POINTER(POINTER(c_double)), POINTER(c_double), c_int, c_int, POINTER(c_double)]
 linearDll.linearTraining.restype = POINTER(c_float)
 
-linearDll.linearTraining(points_ptr, classes_ptr, len(points), 10000, w_ptr)
+x = linearDll.linearTraining(points_ptr, classes_ptr, len(points), 10000, w_ptr)
+
+# x2 = (np.ctypeslib.as_array(x, shape=(3, 1)))
+
+print(x)
 
 test_points = []
 test_colors = []
@@ -54,3 +58,4 @@ test_colors = np.array(test_colors)
 plt.scatter(test_points[:, 0], test_points[:, 1], c=test_colors)
 plt.scatter(points[:, 0], points[:, 1], c=colors)
 plt.show()
+print("success")

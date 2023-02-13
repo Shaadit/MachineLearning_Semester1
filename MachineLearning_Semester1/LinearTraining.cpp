@@ -9,7 +9,7 @@
 
 #pragma region LINEAR MODEL
 
-DLLEXPORT double* linearTraining(double* points, double points_size, double* classification, int tabLenght, int maxIteration, double* w, double w_size) {
+DLLEXPORT double* linearTraining(double* points, double* classification, int tabLenght, int maxIteration, double* w, double w_size) {
 
 	//Init du temps pour le random
 	srand(time(NULL));
